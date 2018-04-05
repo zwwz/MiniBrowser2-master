@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 urlstr = url.getText().toString();
                 showWebView.loadUrl("http://wap.sogou.com/web/searchList.jsp?&keyword="+urlstr);
+                //modified by wangyang at 2018.4.5
+//                showWebView.loadUrl(urlstr);
             }
         });
 
